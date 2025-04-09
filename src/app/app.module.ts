@@ -11,6 +11,7 @@ import { TeachersComponent } from './teachers/teachers.component';
 import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { ServicesComponent } from './services/services.component';
+import { WrapperComponent } from './wrapper/wrapper.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ServicesComponent } from './services/services.component';
     TeachersComponent,
     AboutComponent,
     NewsComponent,
-    ServicesComponent
+    ServicesComponent,
+    WrapperComponent
   ],
   imports: [
     BrowserModule,
