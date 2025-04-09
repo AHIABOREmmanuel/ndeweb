@@ -1,8 +1,7 @@
-// wrapper.component.ts
 import { Component, ElementRef, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
-declare var require: any;
+declare var require: any; // Permet d'utiliser require() dans TypeScript
 
 @Component({
   selector: 'app-wrapper',
